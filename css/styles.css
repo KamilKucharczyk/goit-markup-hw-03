@@ -30,10 +30,13 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .menu-container {
   display: flex;
   justify-content: center;
-  height: 80px;
 }
 .menu-logo-top {
   color: var(--text-color-black);
@@ -60,7 +63,6 @@ body {
   gap: 46px;
   list-style-type: none;
   width: 254px;
-  height: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
   margin-right: 371px;
@@ -133,10 +135,13 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  padding-top: 10px;
+  padding-right: 41px;
+  padding-bottom: 10px;
+  padding-left: 42px;
 }
 .button-properties {
   width: 200px;
-  height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-style: none;
@@ -145,8 +150,6 @@ body {
   display: flex;
   list-style-type: none;
   gap: 30px;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 .feature-list-description {
   font-weight: 400;
@@ -159,7 +162,10 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.section-what-we-do {
+  padding-top: 0;
 }
 .what-we-do {
   font-style: normal;
@@ -173,8 +179,6 @@ body {
   list-style-type: none;
   gap: 30px;
   width: 370px;
-  height: 294px;
-  margin-bottom: 92px;
 }
 .our-team {
   background-color: var(--color-background-light-grey);
@@ -184,7 +188,6 @@ body {
   display: flex;
   list-style-type: none;
   width: 1170px;
-  height: 368px;
   gap: 30px;
 }
 .team-members {
@@ -198,7 +201,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  padding-top: 94px;
   padding-right: 695;
   padding-left: 695;
   margin-bottom: 50px;
@@ -217,6 +219,7 @@ body {
   line-height: 1.19;
   text-align: center;
   margin-top: 10px;
+  padding-bottom: 30px;
 }
 .footer {
   background-color: var(--color-background-dark-grey);
@@ -251,20 +254,23 @@ body {
 }
 .projects-container h3 {
   font-style: normal;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .projects-container p {
   color: var(--text-color-grey);
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 .buttons-list {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   gap: 8px;
   list-style-type: none;
+  margin-bottom: 50px;
 }
 .project-button {
   background-color: var(--color-background-light-grey);
@@ -291,15 +297,13 @@ body {
   list-style-type: none;
   flex-wrap: wrap;
   gap: 30px;
-  margin-top: 34px;
-  margin-bottom: 94px;
 }
 .project-card {
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   width: 370px;
-  height: 404px;
-  margin-bottom: 20px;
 }
 .project-caption {
   display: flex;
@@ -307,4 +311,5 @@ body {
   gap: 4px;
   margin-top: 20px;
   padding-left: 24px;
+  padding-bottom: 20px;
 }
