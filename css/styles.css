@@ -20,6 +20,9 @@ body {
   color: var(--text-color-black);
   font-family: "Roboto", sans-serif;
 }
+img {
+  display: block;
+}
 .menu {
   background-color: #ffffff;
   border-bottom: 1px solid var(--header-color-border);
@@ -258,6 +261,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
 }
 .projects-container p {
   color: var(--text-color-grey);
@@ -300,16 +304,16 @@ body {
 }
 .project-card {
   background: #ffffff;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
   width: 370px;
 }
 .project-caption {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  margin-top: 20px;
+  padding-right: 24px;
   padding-left: 24px;
   padding-bottom: 20px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
